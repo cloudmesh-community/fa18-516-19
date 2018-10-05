@@ -1,5 +1,14 @@
 Week Fri 08/31/18 - 09/06/18
 
+This week I worked on creating a python script to automate starting the vm, ssh into the vm and load a list of packages into the virtual environment. There is still work to do to as I would like to create a log file and change the environment to work with other cloud services.
+The script is list in my project folder and is named "setproc.py". I also uploaded my bootstrap bash file which contains the list of commmands I used to create my lamp stack. This process is the one I automated using the "setproc.py script.
+
+I will try to scheduel some time with a TA to clearify some confusion I have regarding the order of things.
+
+I am still slithgly behind as I now need to spend time on being able to sync my folders from my computer to my github respository and ssh my files to the correct location.
+
+Week Fri 08/31/18 - 09/06/18
+
  - Reviewed YAML data structure
  - Created YAML file
  - Loaded Virtual Box
