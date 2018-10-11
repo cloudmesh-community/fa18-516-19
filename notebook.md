@@ -1,3 +1,4 @@
+
 Week Fri 08/31/18 - 09/06/18
 
 This week I worked on creating a python script to automate starting the vm, ssh into the vm and load a list of packages into the virtual environment. There is still work to do to as I would like to create a log file and change the environment to work with other cloud services.
@@ -107,3 +108,5 @@ sudo apt-get pip install cloud
  
  
  
+  Week Fri 09/29/18 - 10/05/18
+
