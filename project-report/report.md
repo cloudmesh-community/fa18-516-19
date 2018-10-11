@@ -1,3 +1,5 @@
+:o: your report needs to be an academic report/paper and not an experience report
+
 Initially I worked on setting up the virtual environment and loading all the neccesary packages manually. 
 I created a virtual environment with the following:
  - VirtualBox
