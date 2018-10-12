@@ -109,4 +109,7 @@ sudo apt-get pip install cloud
  
  
   Week Fri 09/29/18 - 10/05/18
+  Creating new bash script to launch vagrant and run bootstrap.
+  Read through cloudmesh instructions
+  
 
