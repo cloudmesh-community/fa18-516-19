@@ -7,12 +7,11 @@ owner:
   community: "e516"
   semester: fa18
 technologies:
-  -
   - url:
   - url:
   - url: 
 paper:
-  - title: LAMP Stacks - Linux Apache, MySql PHP 
+  - title: LAMP Stacks - Linux Apache, MySql, PHP 
     keyword: LAMP
     url: TBD
     group: fa18-516-19
