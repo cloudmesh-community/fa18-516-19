@@ -6,4 +6,19 @@ owner:
   hid: "fa18-516-19"
   community: "e516"
   semester: fa18
-
+technologies:
+  -
+  - url:
+  - url:
+  - url: 
+paper:
+  - title: Linux Apache, MySql PHP stack 
+    keyword: LAMP
+    url: TBD
+    group: fa18-516-19
+project:
+  - title: TBD
+    keyword: TBD
+    url: 
+    group: fa18-516-19
+code: https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-code/code
