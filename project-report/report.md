@@ -3,10 +3,6 @@
 # LAMP is a set of open source software packages used in a collaborative model to create web applications and web services.  
 # LAMP stands for Linux, Apache, MySQL , PHP.
 #
-#
-
-
-￼
 
 **Introduction**
 
@@ -16,10 +12,7 @@ LAMP is a set of open source software packages used in a collaborative model to 
 2. Apache - The Web Server
 3. MySql - The backend database
 4. PHP - The Web Programming Language 
-
-
 ￼
-
 The use of open source networks to transfer data over the web is increasing as Web applications and the Internet of things (IOT) proliferate. Open source software and APIs, make it easier to share and pass data over the web. APIs known as Application Programing Interfaces are used to fulfill request from clients or other services. They specify how to create, read, update and delete the state of shared objects.   API’s can fetch data, process data, or pass data to another web service.  Much attention is given to the LAMP stack because it is a common approach for  creating web applications and is used with open API’s.
 
 There are other alternatives to the LAMP stack as each component can be exchanged for another application.  Some list the LAMP stack as Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P components can be a substitute for another. " There [1]  are several variants of the four stack model as well. …
@@ -47,7 +40,6 @@ The OpenAPI Specification Initiative has worked to standardize API design to fac
 RESTful stands for Representational state transfer.  When referring to RESTful here; I refer to the W3C working groups  definition of RESTful which is [4] “arbitrary Web Service, in which the service may expose an arbitrary set of operations”.  An example is HTTP request to GET or POST information from a URI. 
 
 https://www.w3.org/TR/ws-arch/
-
 
 Rigor.com likens the job of an API to a waiter, taking the request, then fetching and returning the data.  [5] “Your waiter writes down your order, delivers to the kitchen, picks up your food when it’s ready, and serves it to you at your table.” (Retrieved 2018).
 
@@ -90,8 +82,6 @@ Use vagrant to initialize ubuntu on the virtual machine(vm) by typing the follow
 
 Apache is the web server used in a LAMP stack. Apache is an open source software created and managed my the Apache Software Foundation and the Apache Server Project. The Apache web server establishes connections between the backend database and a client and host services available to the client. According to Apache [6] “The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows.” (Retrieved 2018)
 
-
-
 To install Apache from the command line type:
 
 sudo apt-get install -y apache2
@@ -107,11 +97,9 @@ After you start the Apache server there are a few settings you might want to cha
 
 It is best to configure the server to provide the shortest response time possible especially during peak times. Two variables that impact response to request are  MaxClients and ServerLimits. Both variables are set to a default values of 256 initially.  
 
-
 According to APACHE HTTP SERVER PROJECT [8] “The biggest single  hardware issue affecting web server performance is RAM.  APACHE recommends adjusting the “MaxRequestWorkers” setting to minimize swapping. “ (Retrieved 2018).
 
  As the name indicates this setting controls the maximum number of connections that can be processed simultaneously.  As stated by APACHE (2018_ “The MaxRequestWorkers directive sets the limit on the number of simultaneous request that will be served.” (Retrieved 2018).  The ServerLimit setting can be changed by updating the “httpd.conf” file.
-
 
 https://httpd.apache.org/docs/current/mod/mpm_common.html
 
@@ -158,7 +146,20 @@ Sudo apt-get install -y php7.2-zip
 
 http://php.net/manual/en/book.mcrypt.php
 
+# Set MySql User & Pass
+debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
+# Install MySQL
+apt-get install -y mysql-server
+
+# PHP-MYSQL lib
+apt-get install -y php7.2-mysql
+
+After installing the database restart the apache server before testing the stack and writing data to the database.
+
+# Restart Apache
+sudo service apache2 restart
 
 
 
