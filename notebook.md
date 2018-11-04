@@ -1,5 +1,8 @@
 ![header graphic 1](https://user-images.githubusercontent.com/42589474/47969386-a676c680-e044-11e8-9287-7d09266983f7.png)
 
+![software stack diagram](https://user-images.githubusercontent.com/42589474/47969473-24879d00-e046-11e8-9a47-f818323f88aa.png)
+
+
 
 Week Fri 08/31/18 - 09/06/18
 
