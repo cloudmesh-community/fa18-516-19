@@ -1,4 +1,4 @@
-# title: "LAMP Stacks - Linux Apache, MySQL, PHP"
+# LAMP Stacks - Linux Apache, MySQL, PHP
 
 * LAMP is a set of open source software packages used in a
   collaborative model to create web applications and web services.
