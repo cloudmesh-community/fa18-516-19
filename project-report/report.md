@@ -1,60 +1,111 @@
 # title: "LAMP Stacks - Linux Apache, MySQL, PHP"
 
-# LAMP is a set of open source software packages used in a collaborative model to create web applications and web services.  
-# LAMP stands for Linux, Apache, MySQL , PHP.
-#
+* LAMP is a set of open source software packages used in a
+  collaborative model to create web applications and web services.
+* LAMP stands for Linux, Apache, MySQL , PHP.
 
-**Introduction**
+## Introduction
 
-LAMP is a set of open source software packages used in a collaborative model to create web applications and web services. LAMP stands for Linux, Apache, MySQL , PHP.  The LAMP stack contains open source software packages when integrated creates a SaaS model.  The four packages are:
+LAMP is a set of open source software packages used in a collaborative
+model to create web applications and web services. LAMP stands for
+Linux, Apache, MySQL , PHP.  The LAMP stack contains open source
+software packages when integrated creates a SaaS model.  The four
+packages are:
+
 
 1. Linux - The operating system
 2. Apache - The Web Server
 3. MySql - The backend database
-4. PHP - The Web Programming Language 
-￼
-The use of open source networks to transfer data over the web is increasing as Web applications and the Internet of things (IOT) proliferate. Open source software and APIs, make it easier to share and pass data over the web. APIs known as Application Programing Interfaces are used to fulfill request from clients or other services. They specify how to create, read, update and delete the state of shared objects.   API’s can fetch data, process data, or pass data to another web service.  Much attention is given to the LAMP stack because it is a common approach for  creating web applications and is used with open API’s.
+4. PHP - The Web Programming Language
 
-There are other alternatives to the LAMP stack as each component can be exchanged for another application.  Some list the LAMP stack as Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P components can be a substitute for another. " There [1]  are several variants of the four stack model as well. …
+
+The use of open source networks to transfer data over the web is
+increasing as Web applications and the Internet of things (IOT)
+proliferate. Open source software and APIs, make it easier to share
+and pass data over the web. APIs known as Application Programing
+Interfaces are used to fulfill request from clients or other services.
+They specify how to create, read, update and delete the state of
+shared objects. API's can fetch data, process data, or pass data to
+another web service. Much attention is given to the LAMP stack because
+it is a common approach for creating web applications and is used with
+open API's.
+
+There are other alternatives to the LAMP stack as each component can
+be exchanged for another application. Some list the LAMP stack as
+Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P
+components can be a substitute for another. " There [1] are several
+variants of the four stack model as well. ...
 
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP “( Retrieved 2018)
 
 
-**Abstract**
+## Abstract
 
-The use of open API’s to transfer data over the web is increasing as Web applications and the Internet of things (IOT) proliferate. Open APIs make it easier to share and pass data  over the web.
+:o: abstract comes befor introduction
 
-API’s are built to expose resources for access to public data. APIs are used to fetch data from a database, fulfill a request and process data, using a web server to send information to a client or another service.
+The use of open API's to transfer data over the web is increasing as
+Web applications and the Internet of things (IOT) proliferate. Open
+APIs make it easier to share and pass data over the web.
 
-## keywords:  Linux, Apache, MySQL, PHP, Application Programming Interface (API’s), REST, IOT, OAS, LAMP
+API's are built to expose resources for access to public data. APIs
+are used to fetch data from a database, fulfill a request and process
+data, using a web server to send information to a client or another
+service.
 
+## keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
 
-# OPEN API’s
+:o: not following format
 
-Web applications and the Internet of things (IOT) are reasons Open API’s are increasing in use. Sharing information between applications is easier when the requester and the sender use a standard protocol to communicate and exchange information. This is why the LAMP stack is so popular because each component of the stack integrates well. 
+# OpenAPI
 
-The OpenAPI Specification Initiative has worked to standardize API design to facilitate standardization of design. The OpenAPI committee states [2] “When properly defined via OpenAPI, a consumer can understand and interact with the remote service with a minimal amount of implementation logic.” . OAS states [3] “The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for REST APIs,…” (Retrieved Oct 2018)
+Web applications and the Internet of things (IOT) are reasons Open
+API's are increasing in use. Sharing information between applications
+is easier when the requester and the sender use a standard protocol to
+communicate and exchange information. This is why the LAMP stack is so
+popular because each component of the stack integrates well.
 
-RESTful stands for Representational state transfer.  When referring to RESTful here; I refer to the W3C working groups  definition of RESTful which is [4] “arbitrary Web Service, in which the service may expose an arbitrary set of operations”.  An example is HTTP request to GET or POST information from a URI. 
+The OpenAPI Specification Initiative has worked to standardize API
+design to facilitate standardization of design. The OpenAPI committee
+states [2]
+
+> "When properly defined via OpenAPI, a consumer can
+> understand and interact with the remote service with a minimal amount
+> of implementation logic." . OAS states [3] "The OpenAPI Specification
+> (OAS) defines a standard, programming language-agnostic interface
+> description for REST APIs, ..." (:o: Retrieved Oct 2018)
+
+RESTful stands for Representational state transfer. When referring to
+RESTful here; I refer to the W3C working groups definition of RESTful
+which is [4] “arbitrary Web Service, in which the service may expose
+an arbitrary set of operations”. An example is HTTP request to GET or
+POST information from a URI.
 
 https://www.w3.org/TR/ws-arch/
 
-Rigor.com likens the job of an API to a waiter, taking the request, then fetching and returning the data.  [5] “Your waiter writes down your order, delivers to the kitchen, picks up your food when it’s ready, and serves it to you at your table.” (Retrieved 2018).
+Rigor.com likens the job of an API to a waiter, taking the request,
+then fetching and returning the data. [5] :o:
+
+> "Your waiter writes down
+  your order, delivers to the kitchen, picks up your food when it's
+  ready, and serves it to you at your table." (:o: Retrieved 2018).
 
 
 ## Setting up a LAMP Stack
 
 ### Setup the environment
 
-First Load the operating system for your environment in the case of a LAMP stack Linux is the operating system. You may select one of the Linux distributions such a ubuntu. 
+First Load the operating system for your environment in the case of a
+LAMP stack Linux is the operating system. You may select one of the
+Linux distributions such a ubuntu.
 
 Click the link, locate your distro and  select download.
 
 https://www.ubuntu.com/download/desktop
 
-* Download Virtual Box to setup a virtual environment in which you will run the LAMP stack
+* Download Virtual Box to setup a virtual environment in which you
+will run the LAMP stack
 
 https://www.virtualbox.org/wiki/Downloads
 
@@ -87,7 +138,7 @@ To install Apache from the command line type:
 sudo apt-get install -y apache2
 sudo a2enmod rewrite
 
-a2enmod rewrite  - is an Apache module that generates readable url’s. [7] “One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.” (Retrieved 2018).
+a2enmod rewrite  - is an Apache module that generates readable url's. [7] “One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.” (Retrieved 2018).
 
 https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server
 
@@ -112,24 +163,39 @@ https://httpd.apache.org/docs/current/mod/mpm_common.html
 
 ### Adding Apache mods
 
-One Apache mode that is recommended to install is the spamhaus mod. The purpose of the mod is to block black listed URL’s. This list was created and is maintained by Spamhaus . According to Spamhause  they are [9] “an international nonprofit organization that tracks spam and related cyber threats such as phishing, malware and  botnets, provides realtime actionable and highly accurate threat intelligence to the Internet's major networks, corporations and security vendors, ...”(retrieved 2018)
+One Apache mode that is recommended to install is the spamhaus mod.
+The purpose of the mod is to block black listed URL's. This list was
+created and is maintained by Spamhaus . According to Spamhause  they
+are [9]
+
+> "an international nonprofit organization that tracks spam and
+> related cyber threats such as phishing, malware and  botnets,
+> provides realtime actionable and highly accurate threat intelligence
+> to the Internet's major networks, corporations and security vendors,
+> ..." (:o: retrieved 2018)
 
 https://www.spamhaus.org/organization/
 
 To install the mod type:
 
-* sudo apt-get install libapache2-mod-spamhaus 
-
+```bash
+sudo apt-get install libapache2-mod-spamhaus
+```
 
 
 ### Setting up PHP and MySql
 
 
-To install PHP type the last open source software in the stack. Type the following command:
+To install PHP type the last open source software in the stack. Type
+the following command:
+
+:o:
 
 sudo apt-get install -y php7.2
 
 Now install the apache PHP mod
+
+:o:
 
 Apt-get install -y libapache2-mod-php7.2
 
@@ -137,16 +203,21 @@ Restart the apache server
 
 service apache2 restart
 
-Next install the following PHP mods, the first package loads common modules for PHP. The php7.2-mycrypt packages provides a number of functions to handle encryption and decryption.  
+Next install the following PHP mods, the first package loads common
+modules for PHP. The php7.2-mycrypt packages provides a number of
+functions to handle encryption and decryption.
 
 sudo apt-get install -y php7.2-common
 sudo apt-get install -y php7.2-mcrypt
-Sudo apt-get install -y php7.2-zip  
+Sudo apt-get install -y php7.2-zip
 
 
 http://php.net/manual/en/book.mcrypt.php
 
 # Set MySql User & Pass
+
+:o:
+
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
@@ -156,7 +227,8 @@ apt-get install -y mysql-server
 # PHP-MYSQL lib
 apt-get install -y php7.2-mysql
 
-After installing the database restart the apache server before testing the stack and writing data to the database.
+After installing the database restart the apache server before testing
+the stack and writing data to the database.
 
 # Restart Apache
 sudo service apache2 restart
@@ -164,6 +236,8 @@ sudo service apache2 restart
 
 
 ## References
+
+:o:
 
 https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.bib
 
