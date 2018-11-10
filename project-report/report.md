@@ -1,8 +1,23 @@
 # LAMP Stacks - Linux Apache, MySQL, PHP
 
+| Firstname Lastname
+| email
+| Indiana University
+| hid: fa18-523-19
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-19/blob/master/project-report/report.md)
+| code: [:cloud:](TBD)
+
+---
+
+Keywords: OpenAPI, LAMP
+
+---
+
+:o: please coudl you use proper markdown headings, code and so on,  I correct it now for the last time.
+
 * LAMP is a set of open source software packages used in a
   collaborative model to create web applications and web services.
-* LAMP stands for Linux, Apache, MySQL , PHP.
+* LAMP stands for Linux, Apache, MySQL, PHP.
 
 ## Introduction
 
@@ -191,48 +206,69 @@ the following command:
 
 :o:
 
+```bash
 sudo apt-get install -y php7.2
+```
 
 Now install the apache PHP mod
 
 :o:
 
-Apt-get install -y libapache2-mod-php7.2
+```bash
+apt-get install -y libapache2-mod-php7.2
+```
 
 Restart the apache server
 
-service apache2 restart
+```bash
+$service apache2 restart
+```
 
 Next install the following PHP mods, the first package loads common
 modules for PHP. The php7.2-mycrypt packages provides a number of
 functions to handle encryption and decryption.
 
-sudo apt-get install -y php7.2-common
-sudo apt-get install -y php7.2-mcrypt
-Sudo apt-get install -y php7.2-zip
-
+```bash
+$ sudo apt-get install -y php7.2-common
+$ sudo apt-get install -y php7.2-mcrypt
+$ sudo apt-get install -y php7.2-zip
+```
 
 http://php.net/manual/en/book.mcrypt.php
 
-# Set MySql User & Pass
+##  Set MySql User & Pass
 
-:o:
+:o: fix section header 
 
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
-# Install MySQL
-apt-get install -y mysql-server
+## Install MySQL
 
-# PHP-MYSQL lib
-apt-get install -y php7.2-mysql
+:o: fix section header
+
+```bash
+$ apt-get install -y mysql-server
+```
+
+## PHP-MYSQL lib
+
+:o: fix section header
+
+```bash
+$ apt-get install -y php7.2-mysql
+```
 
 After installing the database restart the apache server before testing
 the stack and writing data to the database.
 
-# Restart Apache
-sudo service apache2 restart
+## Restart Apache
 
+:o: fix section header
+
+```bash
+$ sudo service apache2 restart
+```
 
 
 ## References
