@@ -1,10 +1,10 @@
 # LAMP Stacks - Linux Apache, MySQL, PHP
 
-| Firstname Lastname
-| email
+| De'Angelo Rutledge
+| derutled@iu.edu
 | Indiana University
-| hid: fa18-523-19
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-19/blob/master/project-report/report.md)
+| hid: fa18-516-19
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.md)
 | code: [:cloud:](TBD)
 
 ---
@@ -96,13 +96,12 @@ which is [4] “arbitrary Web Service, in which the service may expose
 an arbitrary set of operations”. An example is HTTP request to GET or
 POST information from a URI.
 
-https://www.w3.org/TR/ws-arch/
+<https://www.w3.org/TR/ws-arch/>
 
 Rigor.com likens the job of an API to a waiter, taking the request,
 then fetching and returning the data. [5] :o:
 
-> "Your waiter writes down
-  your order, delivers to the kitchen, picks up your food when it's
+> "Your waiter writes down your order, delivers to the kitchen, picks up your food when it's
   ready, and serves it to you at your table." (:o: Retrieved 2018).
 
 
@@ -116,24 +115,24 @@ Linux distributions such a ubuntu.
 
 Click the link, locate your distro and  select download.
 
-https://www.ubuntu.com/download/desktop
+<https://www.ubuntu.com/download/desktop>
 
 * Download Virtual Box to setup a virtual environment in which you
 will run the LAMP stack
 
-https://www.virtualbox.org/wiki/Downloads
+<https://www.virtualbox.org/wiki/Downloads>
 
 * Install Virtualbox
 
-https://www.virtualbox.org/manual/UserManual.html
+<https://www.virtualbox.org/manual/UserManual.html>
 
 ### Install Linux (Ubuntu)
 
 * Install ubuntu on the virtual machine
 * Install Vagrant
 	
-https://www.vagrantup.com/downloads.html
-https://www.vagrantup.com/intro/index.html
+<https://www.vagrantup.com/downloads.html>
+<https://www.vagrantup.com/intro/index.html>
 
 ### Setting Up Vagrant
 
@@ -154,7 +153,7 @@ sudo a2enmod rewrite
 
 a2enmod rewrite  - is an Apache module that generates readable url's. [7] “One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.” (Retrieved 2018).
 
-https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server
+<https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server>
 
 ### Performance Tuning and Server Settings
 
@@ -166,7 +165,7 @@ According to APACHE HTTP SERVER PROJECT [8] “The biggest single  hardware iss
 
  As the name indicates this setting controls the maximum number of connections that can be processed simultaneously.  As stated by APACHE (2018_ “The MaxRequestWorkers directive sets the limit on the number of simultaneous request that will be served.” (Retrieved 2018).  The ServerLimit setting can be changed by updating the “httpd.conf” file.
 
-https://httpd.apache.org/docs/current/mod/mpm_common.html
+<https://httpd.apache.org/docs/current/mod/mpm_common.html>
 
 
 ### Server status
@@ -188,7 +187,7 @@ are [9]
 > to the Internet's major networks, corporations and security vendors,
 > ..." (:o: retrieved 2018)
 
-https://www.spamhaus.org/organization/
+<https://www.spamhaus.org/organization/>
 
 To install the mod type:
 
@@ -233,7 +232,7 @@ $ sudo apt-get install -y php7.2-mcrypt
 $ sudo apt-get install -y php7.2-zip
 ```
 
-http://php.net/manual/en/book.mcrypt.php
+<http://php.net/manual/en/book.mcrypt.php>
 
 ##  Set MySql User & Pass
 
@@ -274,7 +273,7 @@ $ sudo service apache2 restart
 
 :o:
 
-https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.bib
+<https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.bib>
 
 
 
