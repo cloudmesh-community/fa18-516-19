@@ -155,7 +155,7 @@ a2enmod rewrite  - is an Apache module that generates readable url's. [7] “On
 
 <https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server>
 
-### Performance Tuning and Server Settings
+#### Performance Tuning and Server Settings
 
 After you start the Apache server there are a few settings you might want to change in order to maintain server performance. Two of these settings are ServerLimit and MaxClients.  
 
@@ -168,13 +168,13 @@ According to APACHE HTTP SERVER PROJECT [8] “The biggest single  hardware iss
 <https://httpd.apache.org/docs/current/mod/mpm_common.html>
 
 
-### Server status
+#### Server status
 
 #### To list the server status type: 
 
 * sudo systemctl status apache2
 
-### Adding Apache mods
+#### Adding Apache mods
 
 One Apache mode that is recommended to install is the spamhaus mod.
 The purpose of the mod is to block black listed URL's. This list was
@@ -234,14 +234,14 @@ $ sudo apt-get install -y php7.2-zip
 
 <http://php.net/manual/en/book.mcrypt.php>
 
-##  Set MySql User & Pass
+####  Set MySql User & Pass
 
 :o: fix section header 
 
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
-## Install MySQL
+### Install MySQL
 
 :o: fix section header
 
@@ -249,7 +249,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 $ apt-get install -y mysql-server
 ```
 
-## PHP-MYSQL lib
+### PHP-MYSQL lib
 
 :o: fix section header
 
@@ -260,7 +260,7 @@ $ apt-get install -y php7.2-mysql
 After installing the database restart the apache server before testing
 the stack and writing data to the database.
 
-## Restart Apache
+#### Restart Apache
 
 :o: fix section header
 
