@@ -9,7 +9,7 @@
 
 ---
 
-Keywords: OpenAPI, LAMP
+Keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
 
 ---
 
@@ -66,11 +66,7 @@ variants of the four stack model as well. ...
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP “( Retrieved 2018)
-
-
-### keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
-
-:o: not following format
+	
 
 ## OpenAPIs
 
