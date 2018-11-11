@@ -68,11 +68,11 @@ variants of the four stack model as well. ...
 	- MAMP: MacOS, Apache, MySQL & PHP “( Retrieved 2018)
 
 
-## keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
+### keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
 
 :o: not following format
 
-# OpenAPI
+## OpenAPIs
 
 Web applications and the Internet of things (IOT) are reasons Open
 API's are increasing in use. Sharing information between applications
