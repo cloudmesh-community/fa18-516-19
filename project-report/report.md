@@ -19,6 +19,18 @@ Keywords: OpenAPI, LAMP
   collaborative model to create web applications and web services.
 * LAMP stands for Linux, Apache, MySQL, PHP.
 
+
+## Abstract
+
+The use of open API's to transfer data over the web is increasing as
+Web applications and the Internet of things (IOT) proliferate. Open
+APIs make it easier to share and pass data over the web.
+
+API's are built to expose resources for access to public data. APIs
+are used to fetch data from a database, fulfill a request and process
+data, using a web server to send information to a client or another
+service.
+
 ## Introduction
 
 LAMP is a set of open source software packages used in a collaborative
@@ -55,19 +67,6 @@ variants of the four stack model as well. ...
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP “( Retrieved 2018)
 
-
-## Abstract
-
-:o: abstract comes befor introduction
-
-The use of open API's to transfer data over the web is increasing as
-Web applications and the Internet of things (IOT) proliferate. Open
-APIs make it easier to share and pass data over the web.
-
-API's are built to expose resources for access to public data. APIs
-are used to fetch data from a database, fulfill a request and process
-data, using a web server to send information to a client or another
-service.
 
 ## keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
 
