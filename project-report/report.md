@@ -62,7 +62,7 @@ be exchanged for another application. Some list the LAMP stack as
 Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P
 components can be a substitute for another. 
 
-> There[^@Potter] are several variants of the four stack model as well. ...
+> There[^Potter] are several variants of the four stack model as well. ...
 
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
@@ -268,8 +268,8 @@ $ sudo service apache2 restart
 
 ## References
 
-^[@Potter/report.bib]
-[^@Potter]:[^@Potter]
+
+[^Potter]:Potter
 
 
 
