@@ -1,3 +1,5 @@
+![headergraphic1](https://user-images.githubusercontent.com/42589474/47969386-a676c680-e044-11e8-9287-7d09266983f7.png)
+
 # LAMP Stacks - Linux Apache, MySQL, PHP
 
 | De'Angelo Rutledge
