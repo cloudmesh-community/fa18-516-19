@@ -204,7 +204,6 @@ sudo apt-get install libapache2-mod-spamhaus
 
 ### Installing PHP and MySql
 
-
 To install PHP type the following bash command at the terminal command prompt:
 
 ```bash
@@ -238,22 +237,16 @@ $ sudo apt-get install -y php7.2-zip
 
 ####  Set MySql User & Pass
 
-:o: fix section header 
-
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
 #### Install MySQL
-
-:o: fix section header
 
 ```bash
 $ apt-get install -y mysql-server
 ```
 
 #### PHP-MYSQL lib
-
-:o: fix section header
 
 ```bash
 $ apt-get install -y php7.2-mysql
@@ -263,8 +256,6 @@ After installing the database restart the apache server before testing
 the stack and writing data to the database.
 
 #### Restart Apache
-
-:o: fix section header
 
 ```bash
 $ sudo service apache2 restart
