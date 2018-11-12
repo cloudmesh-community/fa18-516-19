@@ -243,7 +243,7 @@ $ sudo apt-get install -y php7.2-zip
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
-### Install MySQL
+#### Install MySQL
 
 :o: fix section header
 
@@ -251,7 +251,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 $ apt-get install -y mysql-server
 ```
 
-### PHP-MYSQL lib
+#### PHP-MYSQL lib
 
 :o: fix section header
 
