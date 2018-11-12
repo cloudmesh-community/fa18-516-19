@@ -1,4 +1,6 @@
-![headergraphic1](https://user-images.githubusercontent.com/42589474/47969386-a676c680-e044-11e8-9287-7d09266983f7.png)
+![figure1](https://user-images.githubusercontent.com/42589474/47969386-a676c680-e044-11e8-9287-7d09266983f7.png)
+
+---
 
 # LAMP Stacks - Linux Apache, MySQL, PHP
 
@@ -69,6 +71,10 @@ components can be a substitute for another.
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP
 	
+
+![figure2](https://user-images.githubusercontent.com/42589474/47969473-24879d00-e046-11e8-9a47-f818323f88aa.png)
+
+[*figure2*]
 
 ## OpenAPIs
 
