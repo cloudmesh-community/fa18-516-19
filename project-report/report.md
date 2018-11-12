@@ -80,11 +80,11 @@ The OpenAPI Specification Initiative has worked to standardize API
 design to facilitate standardization of design. The OpenAPI committee
 states [fa18-516-19-www-oai-b].
 
-> "When properly defined via OpenAPI, a consumer can
+> When properly defined via OpenAPI, a consumer can
 > understand and interact with the remote service with a minimal amount
-> of implementation logic." . OAS states [3] "The OpenAPI Specification
+> of implementation logic.[fa18-516-19-OAI]. OAS states, The OpenAPI Specification
 > (OAS) defines a standard, programming language-agnostic interface
-> description for REST APIs, ...
+> description for REST APIs, ...[fa18-516-19-OAI] 
 
 RESTful stands for Representational state transfer. When referring to
 RESTful here; I refer to the W3C working groups definition of RESTful
@@ -113,8 +113,7 @@ Click the link, locate your distro and  select download.
 
 <https://www.ubuntu.com/download/desktop>
 
-* Download Virtual Box to setup a virtual environment in which you
-will run the LAMP stack
+* Download Virtual Box to setup a virtual environment in which you will run the LAMP stack
 
 <https://www.virtualbox.org/wiki/Downloads>
 
@@ -215,8 +214,8 @@ $ service apache2 restart
 ```
 
 Next install the following PHP mods, the first package loads common
-modules for PHP. The php7.2-mycrypt packages provides a number of
-functions to handle encryption and decryption.
+modules for PHP. The php7.2-mycrypt packages provides a number of functions to handle 
+encryption and decryption.
 
 ```bash
 $ sudo apt-get install -y php7.2-common
