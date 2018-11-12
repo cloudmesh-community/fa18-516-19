@@ -143,9 +143,10 @@ Apache is the web server used in a LAMP stack. Apache is an open source software
 
 To install Apache from the command line type:
 
+```bash
 sudo apt-get install -y apache2
 sudo a2enmod rewrite
-
+```
 a2enmod rewrite  - is an Apache module that generates readable url's. [fa18-516-19-www-digitalocean] One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.
 
 <https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server>
@@ -165,9 +166,11 @@ As the name indicates this setting controls the maximum number of connections th
 
 #### Server status
 
-#### To list the server status type: 
+#### To list the server status type:
 
-* sudo systemctl status apache2
+```bash
+sudo systemctl status apache2
+```
 
 #### Adding Apache mods
 
