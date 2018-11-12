@@ -60,12 +60,13 @@ open API's.
 There are other alternatives to the LAMP stack as each component can
 be exchanged for another application. Some list the LAMP stack as
 Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P
-components can be a substitute for another. " There [1] are several
-variants of the four stack model as well. ...
+components can be a substitute for another. 
+
+> There ^[per Potter, see [@Potter].] are several variants of the four stack model as well. ...
 
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
-	- MAMP: MacOS, Apache, MySQL & PHP “( Retrieved 2018)
+	- MAMP: MacOS, Apache, MySQL & PHP
 	
 
 ## OpenAPIs
@@ -267,7 +268,7 @@ $ sudo service apache2 restart
 
 ## References
 
-:o:
+^[@Potter/report.bib]
 
 <https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.bib>
 
