@@ -13,7 +13,6 @@ Keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), 
 
 ---
 
-:o: please coudl you use proper markdown headings, code and so on,  I correct it now for the last time.
 
 * LAMP is a set of open source software packages used in a
   collaborative model to create web applications and web services.
@@ -62,7 +61,7 @@ be exchanged for another application. Some list the LAMP stack as
 Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P
 components can be a substitute for another. 
 
-> There[^Potter] are several variants of the four stack model as well. ...
+> There[^@Potter] are several variants of the four stack model as well. ...
 
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
@@ -269,12 +268,8 @@ $ sudo service apache2 restart
 ## References
 
 
-[^Potter]:Potter
+[^Potter]: 1
 
-
-
-
-<https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.bib>
 
 
 
