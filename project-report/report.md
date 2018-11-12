@@ -61,7 +61,7 @@ be exchanged for another application. Some list the LAMP stack as
 Linux, Apache, MySQL & PHP/Python/Perl because each one of the last P
 components can be a substitute for another. 
 
-> There[^@Potter] are several variants of the four stack model as well. ...
+> There[@fa18-516-19-wwww-lamp-liquidweb] are several variants of the four stack model as well. ...
 
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
@@ -78,27 +78,27 @@ popular because each component of the stack integrates well.
 
 The OpenAPI Specification Initiative has worked to standardize API
 design to facilitate standardization of design. The OpenAPI committee
-states [2]
+states [fa18-516-19-www-oai-b].
 
 > "When properly defined via OpenAPI, a consumer can
 > understand and interact with the remote service with a minimal amount
 > of implementation logic." . OAS states [3] "The OpenAPI Specification
 > (OAS) defines a standard, programming language-agnostic interface
-> description for REST APIs, ..." (:o: Retrieved Oct 2018)
+> description for REST APIs, ...
 
 RESTful stands for Representational state transfer. When referring to
 RESTful here; I refer to the W3C working groups definition of RESTful
-which is [4] “arbitrary Web Service, in which the service may expose
-an arbitrary set of operations”. An example is HTTP request to GET or
+which is [fa18-516-19-www-restful], arbitrary Web Service, in which the service may expose
+an arbitrary set of operations. An example is HTTP request to GET or
 POST information from a URI.
 
 <https://www.w3.org/TR/ws-arch/>
 
 Rigor.com likens the job of an API to a waiter, taking the request,
-then fetching and returning the data. [5] :o:
+then fetching and returning the data. 
 
-> "Your waiter writes down your order, delivers to the kitchen, picks up your food when it's
-  ready, and serves it to you at your table." (:o: Retrieved 2018).
+> Your waiter writes down your order, delivers to the kitchen, picks up your food when it's
+  ready, and serves it to you at your table. [fa18-516-19-www-rigor-com]
 
 
 ## Setting up a LAMP Stack
@@ -140,14 +140,14 @@ Use vagrant to initialize ubuntu on the virtual machine(vm) by typing the follow
 
 ### Installing Apache
 
-Apache is the web server used in a LAMP stack. Apache is an open source software created and managed my the Apache Software Foundation and the Apache Server Project. The Apache web server establishes connections between the backend database and a client and host services available to the client. According to Apache [6] “The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows.” (Retrieved 2018)
+Apache is the web server used in a LAMP stack. Apache is an open source software created and managed my the Apache Software Foundation and the Apache Server Project. The Apache web server establishes connections between the backend database and a client and host services available to the client. According to Apache [fa18-516-19-www-apache-httpd] The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows.
 
 To install Apache from the command line type:
 
 sudo apt-get install -y apache2
 sudo a2enmod rewrite
 
-a2enmod rewrite  - is an Apache module that generates readable url's. [7] “One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.” (Retrieved 2018).
+a2enmod rewrite  - is an Apache module that generates readable url's. [fa18-516-19-www-digitalocean] One of the most useful modules for Apache is mod_rewrite. This module allows you to generate unique and easily readable urls for content requested on the server.
 
 <https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-use-modules-in-the-apache-web-server>
 
@@ -157,9 +157,9 @@ After you start the Apache server there are a few settings you might want to cha
 
 It is best to configure the server to provide the shortest response time possible especially during peak times. Two variables that impact response to request are  MaxClients and ServerLimits. Both variables are set to a default values of 256 initially.  
 
-According to APACHE HTTP SERVER PROJECT [8] “The biggest single  hardware issue affecting web server performance is RAM.  APACHE recommends adjusting the “MaxRequestWorkers” setting to minimize swapping. “ (Retrieved 2018).
+According to APACHE HTTP SERVER PROJECT [fa18-516-19-www-apache-httpd], The biggest single hardware issue affecting web server performance is RAM.  APACHE recommends adjusting the *MaxRequestWorkers* setting to minimize swapping.
 
- As the name indicates this setting controls the maximum number of connections that can be processed simultaneously.  As stated by APACHE (2018_ “The MaxRequestWorkers directive sets the limit on the number of simultaneous request that will be served.” (Retrieved 2018).  The ServerLimit setting can be changed by updating the “httpd.conf” file.
+As the name indicates this setting controls the maximum number of connections that can be processed simultaneously. As stated by APACHE [fa18-516-19-www-apache-httpd] The MaxRequestWorkers directive sets the limit on the number of simultaneous request that will be served. The ServerLimit setting can be changed by updating the *httpd.conf* file.
 
 <https://httpd.apache.org/docs/current/mod/mpm_common.html>
 
@@ -174,14 +174,14 @@ According to APACHE HTTP SERVER PROJECT [8] “The biggest single  hardware iss
 
 One Apache mode that is recommended to install is the spamhaus mod.
 The purpose of the mod is to block black listed URL's. This list was
-created and is maintained by Spamhaus . According to Spamhause  they
-are [9]
+created and is maintained by Spamhaus. According to Spamhause they
+are
 
-> "an international nonprofit organization that tracks spam and
+> an international nonprofit organization that tracks spam and
 > related cyber threats such as phishing, malware and  botnets,
 > provides realtime actionable and highly accurate threat intelligence
 > to the Internet's major networks, corporations and security vendors,
-> ..." (:o: retrieved 2018)
+> ... [fa18-516-19-www-spamhause]
 
 <https://www.spamhaus.org/organization/>
 
@@ -192,30 +192,26 @@ sudo apt-get install libapache2-mod-spamhaus
 ```
 
 
-### Setting up PHP and MySql
+### Installing PHP and MySql
 
 
-To install PHP type the last open source software in the stack. Type
-the following command:
-
-:o:
+To install PHP type the following bash command at the terminal command prompt:
 
 ```bash
-sudo apt-get install -y php7.2
+$ sudo apt-get install -y php7.2
 ```
 
-Now install the apache PHP mod
+Now install the apache PHP mod by typing the following bash command at the terminal prompt:
 
-:o:
 
 ```bash
-apt-get install -y libapache2-mod-php7.2
+$ apt-get install -y libapache2-mod-php7.2
 ```
 
-Restart the apache server
+Restart the apache server by typing the following bash command
 
 ```bash
-$service apache2 restart
+$ service apache2 restart
 ```
 
 Next install the following PHP mods, the first package loads common
@@ -265,10 +261,10 @@ $ sudo service apache2 restart
 ```
 
 
-## References
 
 
-[^Potter]: 1
+
+
 
 
 
