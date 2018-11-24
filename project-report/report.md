@@ -17,11 +17,9 @@ Keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), 
 
 ---
 
-
 * LAMP is a set of open source software packages used in a
   collaborative model to create web applications and web services.
 * LAMP stands for Linux, Apache, MySQL, PHP.
-
 
 ## Abstract
 
@@ -42,12 +40,10 @@ Linux, Apache, MySQL , PHP.  The LAMP stack contains open source
 software packages when integrated creates a SaaS model.  The four
 packages are:
 
-
 1. Linux - The operating system
 2. Apache - The Web Server
 3. MySql - The backend database
 4. PHP - The Web Programming Language
-
 
 The use of open source networks to transfer data over the web is
 increasing as Web applications and the Internet of things (IOT)
@@ -71,7 +67,6 @@ components can be a substitute for another.
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP
 	
-
 ![figure2](https://user-images.githubusercontent.com/42589474/47969473-24879d00-e046-11e8-9a47-f818323f88aa.png)
 
 [*figure2*]
@@ -108,7 +103,6 @@ then fetching and returning the data.
 > Your waiter writes down your order, delivers to the kitchen, picks up your food when it's
   ready, and serves it to you at your table. [fa18-516-19-www-rigor-com]
 
-
 ## Setting up a LAMP Stack
 
 ### Setup the environment
@@ -144,7 +138,6 @@ Use vagrant to initialize ubuntu on the virtual machine(vm) by typing the follow
 * vagrant -v  (check the version of vagrant that installed) 
 * vagrant up  (starts the VM)
 
-
 ### Installing Apache
 
 Apache is the web server used in a LAMP stack. Apache is an open source software created and managed my the Apache Software Foundation and the Apache Server Project. The Apache web server establishes connections between the backend database and a client and host services available to the client. According to Apache [fa18-516-19-www-apache-httpd] The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows.
@@ -171,7 +164,6 @@ As the name indicates this setting controls the maximum number of connections th
 
 <https://httpd.apache.org/docs/current/mod/mpm_common.html>
 
-
 #### Server status
 
 #### To list the server status type:
@@ -179,7 +171,6 @@ As the name indicates this setting controls the maximum number of connections th
 ```bash
 sudo systemctl status apache2
 ```
-
 #### Adding Apache mods
 
 One Apache mode that is recommended to install is the spamhaus mod.
@@ -201,7 +192,6 @@ To install the mod type:
 sudo apt-get install libapache2-mod-spamhaus
 ```
 
-
 ### Installing PHP and MySql
 
 To install PHP type the following bash command at the terminal command prompt:
@@ -211,7 +201,6 @@ $ sudo apt-get install -y php7.2
 ```
 
 Now install the apache PHP mod by typing the following bash command at the terminal prompt:
-
 
 ```bash
 $ apt-get install -y libapache2-mod-php7.2
