@@ -1,7 +1,3 @@
-![figure1](https://user-images.githubusercontent.com/42589474/47969386-a676c680-e044-11e8-9287-7d09266983f7.png)
-
----
-
 # LAMP Stacks - Linux Apache, MySQL, PHP
 
 | De'Angelo Rutledge
@@ -66,10 +62,12 @@ components can be a substitute for another.
 	- WAMP: Windows, Apache, MySQL & PHP
 	- WISA: Windows, IIS, SQL &  ASP.net
 	- MAMP: MacOS, Apache, MySQL & PHP
-	
-![figure2](https://user-images.githubusercontent.com/42589474/47969473-24879d00-e046-11e8-9a47-f818323f88aa.png)
 
-[*figure2*]
+:o: illegal use of http in images. epxplained before
+
+```
+![figure 2](https://user-images.githubusercontent.com/42589474/47969473-24879d00-e046-11e8-9a47-f818323f88aa.png)
+```
 
 ## OpenAPIs
 
@@ -87,7 +85,7 @@ states [fa18-516-19-www-oai-b].
 > understand and interact with the remote service with a minimal amount
 > of implementation logic.[fa18-516-19-OAI]. OAS states, The OpenAPI Specification
 > (OAS) defines a standard, programming language-agnostic interface
-> description for REST APIs, ...[fa18-516-19-OAI] 
+> description for REST APIs, ... [fa18-516-19-OAI] 
 
 RESTful stands for Representational state transfer. When referring to
 RESTful here; I refer to the W3C working groups definition of RESTful
@@ -95,7 +93,7 @@ which is [fa18-516-19-www-restful], arbitrary Web Service, in which the service 
 an arbitrary set of operations. An example is HTTP request to GET or
 POST information from a URI.
 
-<https://www.w3.org/TR/ws-arch/>
+* <https://www.w3.org/TR/ws-arch/>
 
 Rigor.com likens the job of an API to a waiter, taking the request,
 then fetching and returning the data. 
@@ -113,30 +111,34 @@ Linux distributions such a ubuntu.
 
 Click the link, locate your distro and  select download.
 
-<https://www.ubuntu.com/download/desktop>
+* <https://www.ubuntu.com/download/desktop>
 
-* Download Virtual Box to setup a virtual environment in which you will run the LAMP stack
+Download Virtual Box to setup a virtual environment in which you will run the LAMP stack
 
-<https://www.virtualbox.org/wiki/Downloads>
+* <https://www.virtualbox.org/wiki/Downloads>
 
-* Install Virtualbox
+Install Virtualbox
 
-<https://www.virtualbox.org/manual/UserManual.html>
+* <https://www.virtualbox.org/manual/UserManual.html>
 
 ### Install Linux (Ubuntu)
 
-* Install ubuntu on the virtual machine
-* Install Vagrant
+Install ubuntu on the virtual machine
+
+Install Vagrant
 	
-<https://www.vagrantup.com/downloads.html>
-<https://www.vagrantup.com/intro/index.html>
+* <https://www.vagrantup.com/downloads.html>
+* <https://www.vagrantup.com/intro/index.html>
 
 ### Setting Up Vagrant
 
-Use vagrant to initialize ubuntu on the virtual machine(vm) by typing the following command:	
-* vagrant init “your linux distro” (ubuntu-bionic64)
-* vagrant -v  (check the version of vagrant that installed) 
-* vagrant up  (starts the VM)
+Use vagrant to initialize ubuntu on the virtual machine(vm) by typing the following command:
+
+```bash
+vagrant init “your linux distro” (ubuntu-bionic64)
+vagrant -v  (check the version of vagrant that installed) 
+vagrant up  (starts the VM)
+```
 
 ### Installing Apache
 
@@ -162,7 +164,7 @@ According to APACHE HTTP SERVER PROJECT [fa18-516-19-www-apache-httpd], The bigg
 
 As the name indicates this setting controls the maximum number of connections that can be processed simultaneously. As stated by APACHE [fa18-516-19-www-apache-httpd] The MaxRequestWorkers directive sets the limit on the number of simultaneous request that will be served. The ServerLimit setting can be changed by updating the *httpd.conf* file.
 
-<https://httpd.apache.org/docs/current/mod/mpm_common.html>
+* <https://httpd.apache.org/docs/current/mod/mpm_common.html>
 
 #### Server status
 
@@ -184,7 +186,7 @@ are
 > to the Internet's major networks, corporations and security vendors,
 > ... [fa18-516-19-www-spamhause]
 
-<https://www.spamhaus.org/organization/>
+* <https://www.spamhaus.org/organization/>
 
 To install the mod type:
 
@@ -222,7 +224,7 @@ $ sudo apt-get install -y php7.2-mcrypt
 $ sudo apt-get install -y php7.2-zip
 ```
 
-<http://php.net/manual/en/book.mcrypt.php>
+* <http://php.net/manual/en/book.mcrypt.php>
 
 ####  Set MySql User & Pass
 
