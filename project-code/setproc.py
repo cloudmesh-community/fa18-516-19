@@ -1,6 +1,11 @@
 import os
 import subprocess
 
+#The initial purpose of this file was to load each command line in the tuple. 
+# In its current state the script will read each command in the tuple and echo's that command to the terminal display.
+# Then print the full list of installed packages to the terminal. 
+# I did NOT YET add a function to call each command as it was much simpler to use a bootstrap file or a bash script to accomplish this task. 
+
 #logfile = setproc.log
 
 p = subprocess.Popen("vagrant up", shell=True)
