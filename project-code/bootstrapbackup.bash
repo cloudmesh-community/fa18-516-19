@@ -34,13 +34,11 @@ apt-get install -y php7.2-common
 apt-get install -y php7.2-mcrypt
 apt-get install -y php7.2-zip
 
+# Install MySQL
+apt-get install -y mysql-server
 
 # Set MySql User & Pass
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
-debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
-
-# Install MySQL
-apt-get install -y mysql-server
 
 # PHP-MYSQL lib
 apt-get install -y php7.2-mysql
@@ -65,30 +63,7 @@ sudo apt-get install -y 3.7.0
 sudo apt-get install -y curl
 sudo apt-get update
 
-# install cloudmesh
-sudo apt-get pip install cloudmesh.cm5
-sudo apt-get pip install cloudmesh.sys
 
-
-# install pyenv
-#sudo apt-get install -y pyenv
-
-
-# curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
-# sudo apt-get update && sudo apt-get upgrade
-# sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev git
-# which pyenv
-# sudo apt-get pyenv update
-
-# Install python 3.7.0
-
-# Error
-
-# sudo apt-get install pyenv install -y 3.7.0
-# sudo pyenv global 3.7.0
-# pyenv version
-# pyenv versions
-# pyenv ubuntu-bionic 3.7.0 ENV3
 
 
 
