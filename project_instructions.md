@@ -1,15 +1,15 @@
-1.  Navigate to the folder e516Cloud \> cmder
-2.  Double Click the file "Cmder.exe" and click the "Run" button, click
+1.  Launch the terminal - Double Click the file "Cmder.exe" and click the "Run" button, click
     "Ignore and continue"
-3.  At the terminal prompt type "Vagrant up" The application will load
+2.  At the terminal prompt type "Vagrant up" The application will load
     and run the bootstrap.bash file which will load the LAMP stack.
-4.  Then type "Vagrant ssh" - This will login to the virtual machine
-5.  Login to MSQL by typing - mysql -u root -p (root is the user and
+3.  Then type "Vagrant ssh" - This will login to the virtual machine
+4.  Login to MSQL by typing - mysql -u root -p (root is the user and
     root is the password) type "root" at the password prompt
-6.  Type "show databases;"
-7.  Create a database, type "create database test;"
-8.  Type "use test;"
-9.  Create a database, a table and load records -
+    type "sudo mysql"
+5.  Type "show databases;"
+6.  Create a database, type "create database test;"
+7.  Type "use test;"
+8.  Create a database, a table and load records -
 
 \#\#create database table
 
@@ -47,3 +47,16 @@ INSERT INTO sale ( id, item\_id, customer\_id, date, quantity, price )
 VALUES ( 4, 4, 3, '2009-02-28', 2, 999 ); INSERT INTO sale ( id,
 item\_id, customer\_id, date, quantity, price ) VALUES ( 5, 1, 2,
 '2009-02-28', 1, 2995 ); COMMIT;
+
+
+9. Open a broswer window and test the connection to the apache server. In the address bar type http://locahost or type http://"server ip address". The apache server default page shoould display. This verifies that the server is running.
+To find the server ip address type "ip addr show".
+
+To look at the apache profile type "sudo ufw app info "Apache Full" This will show the title and description of the web server as well as the ports.
+
+The apache server can be configured by modifying the httpd.conf file located in the /etc/httpd/conf folder but you should first make a copy of this file in case you corrupt the file.
+
+10. To display the databse records via the web page type "index.php" in the address bar
+
+   
+    
