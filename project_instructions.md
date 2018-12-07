@@ -51,11 +51,7 @@
 
 
 9. Open a broswer window and test the connection to the apache server. In the address bar type http://locahost or type http://"server ip address". The apache server default page shoould display. This verifies that the server is running.
-To find the server ip address type "ip addr show".
-
-To look at the apache profile type "sudo ufw app info "Apache Full" This will show the title and description of the web server as well as the ports.
-
-The apache server can be configured by modifying the httpd.conf file located in the /etc/httpd/conf folder but you should first make a copy of this file in case you corrupt the file.
+To find the server ip address type "ip addr show". To look at the apache profile type "sudo ufw app info "Apache Full" This will show the title and description of the web server as well as the ports. The apache server can be configured by modifying the httpd.conf file located in the /etc/httpd/conf folder but you should first make a copy of this file in case you corrupt the file.
 
 10. To display the databse records via the web page type "index.php" in the address bar
 
