@@ -15,7 +15,7 @@ paper:
     url: TBD
     group: fa18-516-19
 project:
-  - title: TBD
+  - title: Installing a LAMP stack
     keyword: LAMP Stacks
     url: https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.md
     group: fa18-516-19
