@@ -7,6 +7,14 @@
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-516-19/blob/master/project-report/report.md)
 | code: [:cloud:](TBD)
 
+:o: citations are wrog, see our example
+
+:o: no benchmark provided for install
+
+:o: status of project unclear, pending follow up 
+
+:o: no demonstration of what happens after install
+
 ---
 
 Keywords: Linux, Apache, MySQL, PHP, Application Programming Interface (API's), REST, IOT, OAS, LAMP
